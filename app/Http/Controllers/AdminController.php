@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Models\Category;
+use Flasher\Laravel\Facades\Flasher;
 
 class AdminController extends Controller
 {
@@ -18,6 +18,10 @@ class AdminController extends Controller
         $category = new Category;
         $category->category_name = $request->category;
         $category->save();
+
+        // Add a success message
+        toastr()->timeOut(10000)->closeButton()->addSuccess('Category added successfully..!');
+
         return redirect()->back();
     }
 }
