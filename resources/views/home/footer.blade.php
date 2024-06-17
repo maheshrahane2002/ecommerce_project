@@ -31,7 +31,7 @@
               ABOUT US
             </h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
+            Welcome to our e-commerce store! Whether you are looking for the latest fashion trends, high-quality electronics, or everyday essentials, we have it all.
             </p>
           </div>
           <div class="col-md-6 col-lg-3">
@@ -52,8 +52,7 @@
               NEED HELP
             </h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
-            </p>
+            If you have any questions or need assistance, please contact our support team:            </p>
           </div>
           <div class="col-md-6 col-lg-3">
             <h6>
@@ -62,15 +61,15 @@
             <div class="info_link-box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Gb road 123 london Uk </span>
+                <span> BV Pune India </span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>+01 12345678901</span>
+                <span>+91 7620010046</span>
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span> demo@gmail.com</span>
+                <span> mahya@gmail.com</span>
               </a>
             </div>
           </div>
@@ -82,7 +81,7 @@
       <div class="container">
         <p>
           &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Web Tech Knowledge</a>
+          <a href="https://html.design/">Mahya Web Tech</a>
         </p>
       </div>
     </footer>

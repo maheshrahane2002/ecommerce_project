@@ -21,7 +21,9 @@
                         Gift Shop
                       </h1>
                       <p>
-                        Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
+                Our mission is to make shopping easy and enjoyable for everyone.
+                <br>
+                 We offer a wide variety of products across different categories,<br> ensuring that there is something for everyone.Customer satisfaction <br>is our top priority,and we are always here to help with any questions <br> or concerns you may have.
                       </p>
                       <a href="">
                         Contact Us
