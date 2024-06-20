@@ -78,4 +78,10 @@ class AdminController extends Controller
        toastr()->timeOut(10000)->closeButton()->addSuccess('Product Added Successfully..!');
        return redirect()->back();
    }
+
+   public function view_product()
+    {
+        $product = Product::all();
+        return view('admin.view_product',compact('product'));
+   }
 }
