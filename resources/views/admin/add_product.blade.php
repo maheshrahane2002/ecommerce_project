@@ -87,7 +87,7 @@ textarea
 
         <div class="input_deg">
             <label>Product Image</label>
-            <input type="file" name="image">
+            <input type="file" name="image" required>
         </div>
 
         <div class="input_deg">
