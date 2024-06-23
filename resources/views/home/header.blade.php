@@ -48,7 +48,7 @@
            
           @auth
 
-          <a href="">
+          <a href="{{url('mycart')}}">
               <i class="fa fa-shopping-bag" aria-hidden="true"> [{{$count}}]</i>
           </a>
            
