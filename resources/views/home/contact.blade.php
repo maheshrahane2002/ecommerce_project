@@ -1,4 +1,20 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+  @include('home.css')
+</head>
+
+<body>
+  <div class="hero_area">
+        <!-- header section strats -->
+
+         @include('home.header')
+
+        <!-- end header section -->
+
+
+        <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,8 +26,12 @@
     <div class="container px-0">
       <div class="heading_container ">
         <h2 class="">
+        <br>
+        <br>
           Contact Us
         </h2>
+        <br>
+        <br>
       </div>
     </div>
     <div class="container container-bg">
@@ -51,4 +71,17 @@
   <br><br><br>
 
 </body>
+</html>
+
+
+   
+
+  <!-- Footer section -->
+ 
+  @include('home.footer')
+ 
+  <!--End of Footer section -->
+
+</body>
+
 </html>

@@ -43,7 +43,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Latest Products
+        Product Details
         </h2>
       </div>
       <div class="row">
@@ -70,9 +70,12 @@
               </div>
 
               <div class="detail-box">
-                
-                  <p>{{$data->description}}</p>
+                <p>{{$data->description}}</p>
               </div>
+ 
+              <div class="detail-box">
+              <a class="btn btn-primary" href="{{url('add_cart',$data->id)}}">Add to Cart</a>
+            </div>
 
               
              

@@ -61,6 +61,13 @@ route::get('remove_cart/{id}', [HomeController::class, 'remove_cart'])->middlewa
 
 route::post('confirm_order', [HomeController::class, 'confirm_order'])->middleware(['auth', 'verified']);
 
+route::get('/shop',[HomeController::class,'shop']);
+
+route::get('why',[HomeController::class,'why']);
+
+route::get('testimonial',[HomeController::class,'testimonial']);
+
+route::get('contact',[HomeController::class,'contact']);
 
 
 Route::controller(HomeController::class)->group(function(){

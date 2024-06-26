@@ -14,13 +14,7 @@
         <!-- end header section -->
 
 
-        <!-- header section strats -->
-        
-        @include('home.slider')
-
-        <!-- end slider section -->
   </div>
-  <!-- end hero area -->
 
    <!-- shop section -->
 
@@ -33,11 +27,7 @@
 
    
 
-  <!-- Footer section -->
- 
-  @include('home.footer')
- 
-  <!--End of Footer section -->
+  
 
 </body>
 

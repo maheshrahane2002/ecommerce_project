@@ -6,8 +6,6 @@
         table {
            border: 2px solid skyblue;
            text-align: center;
-           width: 100%;
-           border-collapse: collapse;
         }
         
         th {
@@ -16,6 +14,7 @@
            font-size: 18px;
            font-weight: bold;
            text-align: center; 
+           color: white;
         }
 
         td {
@@ -28,17 +27,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow-x: auto;
         }  
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .nowrap {
-            white-space: nowrap;
-        }
     </style>
   </head>
   <body>
@@ -48,6 +37,9 @@
       <div class="page-content">
         <div class="page-header">
           <div class="container-fluid">
+            <h3>All Orders</h3>
+            <br>
+            <br>
             <div class="table_center">
               <table>
                 <tr>
@@ -57,6 +49,7 @@
                   <th>Product Title</th>
                   <th>Price</th>
                   <th>Image</th>
+                  <th>Payment Status</th>
                   <th>Status</th>
                   <th>Change Status</th>
                   <th>Print PDF</th>
@@ -71,6 +64,9 @@
                   <td>
                     <img width="150" src="products/{{$data->product->image}}">
                   </td>
+
+<td>{{$data->payment_status}}</td>
+
                   <td>
                     @if($data->status == 'in progress')
                       <span style="color:red;">{{ strtolower($data->status) }}</span>
@@ -85,7 +81,7 @@
                     <a class="btn btn-success" href="{{url('delivered', $data->id)}}">Delivered</a>
                   </td>
                   <td>
-                    <a class="btn btn-secondary" href="{{url('print_pdf',$data->id)}}">PDF</a>
+                    <a class="btn btn-secondary" href="{{url('print_pdf',$data->id)}}">Print PDF</a>
                   </td>
 
                 </tr>
