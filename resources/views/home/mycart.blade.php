@@ -121,11 +121,11 @@ label {
           <img width="150" src="/products/{{$cart->product->image}}">
         </td>
         <td>
-          <form action="{{ url('remove_cart', $cart->id) }}" method="POST">
-            @csrf
-            @method('DELETE')
-            <button type="submit" class="remove-btn">Remove</button>
-          </form>
+        <form action="{{ url('remove_cart', $cart->id) }}" method="POST">
+    @csrf
+    @method('DELETE')
+    <button type="submit" class="remove-btn">Remove</button>
+</form>
         </td>
       </tr>
       <?php
