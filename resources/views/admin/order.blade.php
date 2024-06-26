@@ -51,7 +51,7 @@
             <div class="table_center">
               <table>
                 <tr>
-                  <th>Name</th>
+                  <th>Customer Name</th>
                   <th>Address</th>
                   <th>Phone</th>
                   <th>Product Title</th>

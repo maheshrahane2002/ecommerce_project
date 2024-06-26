@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel - Add Category</title>
+    <title>Admin Panel - Categories</title>
 
     <!-- Toastr CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
@@ -51,7 +51,7 @@
     <div class="page-content">
         <div class="page-header">
             <div class="container-fluid">
-                <h1 style="color: white">Add Category</h1>
+                <h1 style="color: white">Categories</h1>
 
                 <div class="div_deg">
                     <form action="{{ url('add_category') }}" method="post">
@@ -74,7 +74,7 @@
                         <tr>
                             <td>{{ $category->category_name }}</td>
                             <td>
-                                <a class="btn btn-success" href="{{url('edit_category',$category->id)}}">Edit</a>
+                                <a class="btn btn-success" href="{{ url('edit_category', $category->id) }}">Edit</a>
                             </td>
                             <td>
                                 <a class="btn btn-danger" onclick="confirmation(event)" href="{{ url('delete_category', $category->id) }}">Delete</a>
@@ -82,7 +82,11 @@
                         </tr>
                         @endforeach
                     </table>
+                    
+                
                 </div>
+                <div class="div_deg">
+                {{ $data->links() }}</div>
 
             </div>
         </div>

@@ -14,6 +14,7 @@ class AdminController extends Controller
     public function view_category()
     {
         $data = Category::all();
+        $data = Category::paginate(2);
         return view('admin.category',compact('data'));
     }
 
